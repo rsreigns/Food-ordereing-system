@@ -1,17 +1,41 @@
 <html lang="en">
   <head>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link  rel="stylesheet"  href="project.css"  />
+    <script type="text/javascript" src="project.js"></script>
+
   </head>
-  <body>
+
+  <style>
+body {
+  background-image: url('p1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#about">About us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Contact
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Phone</a>
+      <a href="#">E-mail</a>
+
+    </div>
+  </div>
+</div>
+
+
     <nav class="nav-bar">
       <div class="logo"></div>
       <div class="search-button">
@@ -32,17 +56,19 @@
     <section id="main">
       <div class="header-container">
         <div class="header">
-          <div class="food-type"><span>Pure Veg</span></div>
-          <div class="food-type"><span>Non Veg</span></div>
+          <div class="food-type"><span><p style="background-color:White;"> Pure Veg</span></p></div>
+          <div class="food-type"><span><p style="background-color:White;">Non Veg</p></span></div>
         </div>
       </div>
     </section>
     <section id="food-category">
+
       <div class="container">
         <span>Inspiration for your first order</span>
         <div class="container-content"></div>
       </div>
     </section>
-    <script src="./script.js"></script>
+
+ 
   </body>
 </html>
